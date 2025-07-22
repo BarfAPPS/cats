@@ -18,7 +18,7 @@ if st.button("Show me a cat!") or st.session_state.cat_img is None:
     load_cat_image()
 
 if st.session_state.cat_img:
-    st.image(st.session_state.cat_img, caption="Do you like this cat?", use_column_width=False)
+    st.image(st.session_state.cat_img, caption="Do you like this cat?", use_container_width=False)
 
     col1, col2 = st.columns(2)
     with col1:
