@@ -1,6 +1,7 @@
-import tkinter as tk
-from PIL import Image, ImageTk
+import streamlit as st
+import random
 import requests
+from PIL import Image
 from io import BytesIO
 
 root = tk.Tk()
